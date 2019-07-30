@@ -1,6 +1,12 @@
 # OpenFileDatabaseSystem
 
-#Build with glib.h
+### Install in *nix
+sudo apt-get install libglib2.0-dev
+
+### Building Instructions
+CFLAGS = `pkg-config --cflags glib-2.0` 
+LDLIBS = `pkg-config --libs glib-2.0`
+
 
 #Now Supports basic commands:
 
